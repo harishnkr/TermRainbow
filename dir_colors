@@ -1,0 +1,327 @@
+
+# vim:ft=dircolors
+
+
+COLOR tty
+
+TERM alacritty
+TERM alacritty-direct
+TERM ansi
+TERM *color*
+TERM con[0-9]*x[0-9]*
+TERM cons25
+TERM console
+TERM cygwin
+TERM dtterm
+TERM dvtm
+TERM dvtm-256color
+TERM Eterm
+TERM eterm-color
+TERM fbterm
+TERM gnome
+TERM gnome-256color
+TERM hurd
+TERM jfbterm
+TERM konsole
+TERM konsole-256color
+TERM kterm
+TERM linux
+TERM linux-c
+TERM mlterm
+TERM putty
+TERM putty-256color
+TERM rxvt*
+TERM rxvt-unicode
+TERM rxvt-256color
+TERM rxvt-unicode256
+TERM screen*
+TERM screen-256color
+TERM st
+TERM st-256color
+TERM terminator
+TERM tmux*
+TERM tmux-256color
+TERM vt100
+TERM wezterm
+TERM xterm*
+TERM xterm-color
+TERM xterm-88color
+TERM xterm-256color
+TERM xterm-kitty
+
+#+-----------------+
+#+ Global Defaults +
+#+-----------------+
+NORMAL                  00
+RESET                   0
+
+FILE                    00
+DIR                     01;34
+LINK                    36
+MULTIHARDLINK           04;36
+
+FIFO                    04;01;36
+SOCK                    04;33
+DOOR                    04;01;36
+BLK                     01;33
+CHR                     33
+
+ORPHAN                  31
+MISSING                 01;37;41
+
+EXEC                    01;36
+
+SETUID                  01;04;37
+SETGID                  01;04;37
+CAPABILITY              01;37
+
+STICKY_OTHER_WRITABLE   01;37;44
+OTHER_WRITABLE          01;04;34
+STICKY                  04;37;44
+
+#+-------------------+
+#+ Extension Pattern +
+#+-------------------+
+
+#+--- Archives ---+
+.7z              1;38;5;136
+.ace             1;38;5;136
+.alz             1;38;5;136
+.arc             1;38;5;136
+.arj             1;38;5;136
+.bz              1;38;5;136
+.bz2             1;38;5;136
+.cab             1;38;5;136
+.cpio            1;38;5;136
+.deb             1;38;5;136
+.dz              1;38;5;136
+.ear             1;38;5;136
+.gz              1;38;5;136
+.jar             1;38;5;136
+.lha             1;38;5;136
+.lrz             1;38;5;136
+.lz              1;38;5;136
+.lz4             1;38;5;136
+.lzh             1;38;5;136
+.lzma            1;38;5;136
+.lzo             1;38;5;136
+.rar             1;38;5;136
+.rpm             1;38;5;136
+.rz              1;38;5;136
+.sar             1;38;5;136
+.t7z             1;38;5;136
+.tar             1;38;5;136
+.taz             1;38;5;136
+.tbz             1;38;5;136
+.tbz2            1;38;5;136
+.tgz             1;38;5;136
+.tlz             1;38;5;136
+.txz             1;38;5;136
+.tz              1;38;5;136
+.tzo             1;38;5;136
+.tzst            1;38;5;136
+.war             1;38;5;136
+.xz              1;38;5;136
+.z               1;38;5;136
+.Z               1;38;5;136
+.zip             1;38;5;136
+.zoo             1;38;5;136
+.zst             1;38;5;136
+
+#+--- Audio ---+
+.aac             1;3;38;5;78
+.au              1;3;38;5;78
+.flac            1;3;38;5;78
+.m4a             1;3;38;5;78
+.mid             1;3;38;5;78
+.midi            1;3;38;5;78
+.mka             1;3;38;5;78
+.mp3             1;3;38;5;78
+.mpa             1;3;38;5;78
+.mpeg            1;3;38;5;78
+.mpg             1;3;38;5;78
+.ogg             1;3;38;5;78
+.opus            1;3;38;5;78
+.ra              1;3;38;5;78
+.wav             1;3;38;5;78
+
+
+#+--- Documents ---+
+.doc             1;38;5;160
+.docx            1;38;5;160
+.dot             1;38;5;160
+.odg             1;38;5;160
+.odp             1;38;5;160
+.ods             1;38;5;160
+.odt             1;38;5;160
+.otg             1;38;5;160
+.otp             1;38;5;160
+.ots             1;38;5;160
+.ott             1;38;5;160
+.pdf             1;38;5;160
+.ppt             1;38;5;160
+.pptx            1;38;5;160
+.xls             1;38;5;160
+.xlsx            1;38;5;160
+
+#+--- Executables ---+
+.app             1;36
+.bat             1;36
+.btm             1;36
+.cmd             1;36
+.com             1;36
+.exe             1;36
+.reg             1;36
+
+#+--- Ignores ---+
+*~      02;37
+.bak    02;37
+.BAK    02;37
+.log    02;37
+.log    02;37
+.old    02;37
+.OLD    02;37
+.orig   02;37
+.ORIG   02;37
+.swo    02;37
+.swp    02;37
+
+#+--- Images ---+
+.bmp             1;3;38;5;153
+.cgm             1;3;38;5;153
+.dl              1;3;38;5;153
+.dvi             1;3;38;5;153
+.emf             1;3;38;5;153
+.eps             1;3;38;5;153
+.jpeg            1;3;38;5;153
+.jpg             1;3;38;5;153
+.JPG             1;3;38;5;153
+.mng             1;3;38;5;153
+.pbm             1;3;38;5;153
+.pcx             1;3;38;5;153
+.pgm             1;3;38;5;153
+.png             1;3;38;5;153
+.PNG             1;3;38;5;153
+.ppm             1;3;38;5;153
+.pps             1;3;38;5;153
+.ppsx            1;3;38;5;153
+.ps              1;3;38;5;153
+.svg             1;3;38;5;153
+.svgz            1;3;38;5;153
+.tga             1;3;38;5;153
+.tif             1;3;38;5;153
+.tiff            1;3;38;5;153
+.webp            1;3;38;5;153  
+.xbm             1;3;38;5;153
+.xcf             1;3;38;5;153
+.xpm             1;3;38;5;153
+.xwd             1;3;38;5;153
+.xwd             1;3;38;5;153
+.yuv             1;3;38;5;153
+
+#+--- Video ---+
+.anx             1;3;38;5;77
+.asf             1;3;38;5;77
+.avi             1;3;38;5;77
+.axv             1;3;38;5;77
+.flc             1;3;38;5;77
+.fli             1;3;38;5;77
+.flv             1;3;38;5;77
+.gl              1;3;38;5;77
+.gif             1;3;38;5;77
+.m2v             1;3;38;5;77
+.m4v             1;3;38;5;77
+.mkv             1;3;38;5;77
+.mov             1;3;38;5;77
+.MOV             1;3;38;5;77
+.mp4             1;3;38;5;77
+.mpeg            1;3;38;5;77
+.mpg             1;3;38;5;77
+.nuv             1;3;38;5;77
+.ogm             1;3;38;5;77
+.ogv             1;3;38;5;77
+.ogx             1;3;38;5;77
+.qt              1;3;38;5;77
+.rm              1;3;38;5;77
+.rmvb            1;3;38;5;77
+.swf             1;3;38;5;77
+.vob             1;3;38;5;77
+.webm            1;3;38;5;77
+.wmv             1;3;38;5;77
+
+
+
+
+
+
+#+--- Code ---+
+.c               38;5;146
+.c++             38;5;25
+.cc              38;5;25
+.clj             38;5;71
+.cljc            38;5;71
+.cljs            38;5;71
+.cp              38;5;25
+.cpp             38;5;25
+.css             38;5;168
+.d               38;5;131
+.dart            38;5;81
+.eex             38;5;60
+ .el             38;5;134
+.ex              38;5;60
+.exs             38;5;60
+.gemspec         38;5;124
+.go              38;5;38
+.h               38;5;146
+.hh              38;5;25
+.hpp             38;5;25
+.hs              38;5;96
+.js              38;5;221
+.lhs             38;5;96
+.lua             38;5;19
+.markdown        38;5;229
+.md              38;5;229
+.mdx             38;5;229
+.nix             38;5;105
+.org             38;5;109
+.php             38;5;103
+.pl              38;5;24
+.pm              38;5;24
+.py              38;5;227
+.rake            38;5;124
+.rb              38;5;124
+.rlib            38;5;202
+.rmd             38;5;229
+.rs              38;5;202
+.sass            38;5;168
+.scss            38;5;168
+.swift           38;5;203
+.t               38;5;24
+.vim             38;5;35
+
+
+
+
+
+#+--- Shell ---+
+.awk             38;5;113
+.bash            38;5;113
+.csh             38;5;113
+.fish            38;5;113
+.ksh             38;5;113
+.ps1             38;5;113
+.sh              38;5;113
+.zsh             38;5;113
+
+
+
+#+--- Markup and Configuration ---+
+.htm             38;5;143
+.html            38;5;143
+.toml            38;5;143
+.yaml            38;5;143
+.yml             38;5;143
+
+
+.ini             38;5;143
+.conf            38;5;143
