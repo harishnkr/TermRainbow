@@ -14,8 +14,8 @@ Most of the current terminals support 256 colours. TermRainbow aims to provide v
 
 The colours include output which is supported by LS_COLORS such as `ls`, as well as for terminal file managers supporting LS_COLORS such as `lf`.
 
-[ls](assets/ls.png)
-[lf](assets/lf.gif)
+![ls](assets/ls.png)
+![lf](assets/lf.gif)
 
 TermRainbow also works with true color terminals, however since it uses 256 colours, the availability of various colours are limited. It does not have any dependencies(dircolors or alternatives in non GNU systems is the only requirement), so it works without breaking.
 
