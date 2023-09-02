@@ -59,3 +59,7 @@ There are a bunch of limitations while using TermRainbow, hence all kinds of sug
 In case there are better colour suggestions backed by sensible reasons, I am more than willing to change the formatting as required.
 
 In case you have a filetype to include, create a pull request with the screenshots of the appropriate colours used. Try to make the colours related to the filetype in some way. Also limit the use of filetypes if its not usually used (for eg: fortran file extensions, although can be created, need not be included since people who use fortran may not use TermRainbow in their system; this need not always be the case and can be included in case there are users requiring fortran extension highlighting). 
+
+# Alternatives
+
+- [Vivid](https://github.com/sharkdp/vivid) (A themeable LS_COLORS generator with a rich filetype datebase)
