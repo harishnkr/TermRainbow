@@ -3,7 +3,7 @@
 # TermRainbow
 
 
-Color utilitites for 256-color Terminals
+Minimal colour highlighting for file formats in the terminal. 
 
 </div>
 
