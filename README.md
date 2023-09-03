@@ -57,6 +57,7 @@ Since this project tend to get highly opinionated, a set of specifications or gu
 
 There are a bunch of limitations while using TermRainbow, hence all kinds of suggestions and feedbacks are welcome. Raise an issue for whatever reason related to making the experience better.
 In case there are better colour suggestions backed by sensible reasons, I am more than willing to change the formatting as required.
+Contributions can include colour suggestions, documentations, extra functoinalities, formatting etc.
 
 In case you have a filetype to include, create a pull request with the screenshots of the appropriate colours used. Try to make the colours related to the filetype in some way. Also limit the use of filetypes if its not usually used (for eg: fortran file extensions, although can be created, need not be included since people who use fortran may not use TermRainbow in their system; this need not always be the case and can be included in case there are users requiring fortran extension highlighting). 
 
