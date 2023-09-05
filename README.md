@@ -44,6 +44,19 @@ Create files with different file formats as specified in the formats.txt file
 Utility script to convert hex colours to the nearest xterm 256 colour, in case you want to tweak the entries
 (Credits to [chrisdiana](https://github.com/chrisdiana) who credits [Micah Elliott](http://MicahElliott.com))
 
+# Appliying to various tools
+
+## ls
+`ls` provides coloured output if one uses --color=auto flag. Add this alias to your shell rc file:
+`alias ls="ls --color=auto" `
+
+## lf file manager
+LF uses LS_COLORS by default, so no extra configuration is required. If you already have custom colour definition, make sure to override it.
+For more info check [this](https://pkg.go.dev/github.com/gokcehan/lf#hdr-Colors) out.
+
+## exa
+exa uses LS_COLORS by default, so no extra configuration is required.
+
 # Principles
 
 Since this project tend to get highly opinionated, a set of specifications or guidlines will be set up so that future ideas and issues can be dealt with. There could always be a lot of incremental changes that can make the experience better. Some basic specifications are as follows:
@@ -64,3 +77,4 @@ In case you have a filetype to include, create a pull request with the screensho
 # Alternatives
 
 - [Vivid](https://github.com/sharkdp/vivid) (A themeable LS_COLORS generator with a rich filetype datebase)
+- [LS_COLORS](https://github.com/trapd00r/LS_COLORS) (A collection of LS_COLORS definitions)

@@ -315,9 +315,10 @@ STICKY                  04;37;44
 
 
 
-#+--- Markup and Configuration ---+
+#+--- Markup/Documentation and Configuration ---+
 .htm             38;5;143
 .html            38;5;143
+.rst             38;5;143
 .toml            38;5;143
 .yaml            38;5;143
 .yml             38;5;143
