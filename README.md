@@ -48,7 +48,9 @@ Utility script to convert hex colours to the nearest xterm 256 colour, in case y
 
 ## ls
 `ls` provides coloured output if one uses --color=auto flag. Add this alias to your shell rc file:
-`alias ls="ls --color=auto" `
+```
+alias ls="ls --color=auto"
+```
 
 ## lf file manager
 LF uses LS_COLORS by default, so no extra configuration is required. If you already have custom colour definition, make sure to override it.
