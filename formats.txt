@@ -55,6 +55,7 @@ rs
 sh            
 swift         
 t             
+ts             
 toml          
 vim           
 webp          
