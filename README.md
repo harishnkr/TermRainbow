@@ -76,6 +76,12 @@ Contributions can include colour suggestions, documentations, extra functoinalit
 
 In case you have a filetype to include, create a pull request with the screenshots of the appropriate colours used. Try to make the colours related to the filetype in some way. Also limit the use of filetypes if its not usually used (for eg: fortran file extensions, although can be created, need not be included since people who use fortran may not use TermRainbow in their system; this need not always be the case and can be included in case there are users requiring fortran extension highlighting). 
 
+## ANSI Formatting
+
+As a reference for others as well as for myself, I would like to list some sites which may help in formatting with ANSI values.
+
+- https://gist.github.com/JBlond/2fea43a3049b38287e5e9cefc87b2124
+
 # Alternatives
 
 - [Vivid](https://github.com/sharkdp/vivid) (A themeable LS_COLORS generator with a rich filetype datebase)
